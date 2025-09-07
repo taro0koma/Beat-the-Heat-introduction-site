@@ -132,7 +132,6 @@ section {
   font-size: 42px;
   line-height: 1.2;
   letter-spacing: -1px;
-  text-transform: uppercase;
   color: #111;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -146,7 +145,6 @@ section {
   font-size: 42px;
   line-height: 1.2;
   letter-spacing: -1px;
-  text-transform: uppercase;
   color: #ddd;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -213,8 +211,13 @@ section {
   color: #555;
 }
 
+.card img {
+  width: 90%;
+}
+
 .card iframe {
   margin-top: 20px;
+  width: 90%;
 }
 
 .quote {
