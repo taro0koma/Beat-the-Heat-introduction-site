@@ -1,16 +1,18 @@
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Beat the Heat — 公式サイト</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="shortcut icon" href="images/favicon.ico" />
     <script type="text/javascript" src="index.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="site-bg">
-      <div class="grad"></div>
-      <svg class="noise" xmlns="http://www.w3.org/2000/svg">
+        <div class="grad"></div>
+        <svg class="noise" xmlns="http://www.w3.org/2000/svg">
         <filter id="n">
           <feTurbulence baseFrequency="0.8" numOctaves="2" />
           <feColorMatrix type="saturate" values="0" />
@@ -23,187 +25,180 @@
     </div>
 
     <header>
-      <div class="inner">
-        <div class="logo">
-          <img src="images/app_icon.png" alt="app_icon" style="width: 40px" />
-          <div class="brand">Beat the Heat</div>
+        <div class="inner">
+            <div class="logo">
+                <img src="images/app_icon.png" alt="app_icon" style="width: 40px" />
+                <div class="brand">Beat the Heat</div>
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#how">How It Works</a>
+                <a href="#voices">Voices</a>
+                <a href="#faq">FAQ</a>
+            </nav>
         </div>
-        <nav>
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#how">How It Works</a>
-          <a href="#voices">Voices</a>
-          <a href="#faq">FAQ</a>
-        </nav>
-      </div>
     </header>
 
-    <!-- トップ -->
     <section id="home">
-      <div class="section-inner inner-top" style="text-align: center">
-        <h1 class="heading">
-          Beat the <span>Heat<span></span><br />
-        </h1>
-        <p class="sub">
-          高齢者の熱中症予防を支援するスマートアプリ。<br />家族・地域とつながり、健康で安心な毎日を。
-        </p>
-      </div>
+        <div class="section-inner inner-top" style="text-align: center">
+            <h1 class="heading">
+                Beat the <span>Heat<span></span><br />
+            </h1>
+            <p class="sub">
+                高齢者の熱中症予防を支援するスマートアプリ。<br />家族・地域とつながり、健康で安心な毎日を。
+            </p>
+        </div>
     </section>
 
-    <!-- アプリの機能 -->
     <section id="services">
-      <div class="section-inner">
-        <h2 class="heading">OUR <span>SERVICES</span></h2>
-        <p class="sub">熱中症予防をサポートする多彩な機能をご紹介します。</p>
-        <div class="grid">
-          <div class="card" data-service="家族連携機能">
-            <h3>家族連携機能</h3>
-            <p>見守り・応援で安心とつながりを。</p>
-            <img src="images/connectWithFamily.png" alt="">
-            <iframe src="https://www.youtube.com/embed/MH7gCJuA13g?si=lK5N2I6geh829dxV&amp;start=36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-          <div class="card" data-service="運動機能">
-            <h3>運動機能</h3>
-            <p>日々の運動を提案し、健康を維持。</p>
-            <img src="images/exerice.png" alt="">
-            <iframe src="https://www.youtube.com/embed/MH7gCJuA13g?si=dDaw7kjUxhLAt9wB&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-          <div class="card" data-service="涼しい場所マップ">
-            <h3>涼しい場所マップ</h3>
-            <p>近隣の避暑スポットを案内。</p>
-            <img src="images/coolSpaceMap.png" alt="">
-            <iframe src="https://www.youtube.com/embed/MH7gCJuA13g?si=pLtr0wcLuIdC-leS&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-          <div class="card" data-service="おしゃべりルーム">
-            <h3>おしゃべりルーム</h3>
-            <p>AIキャラクターと会話して気分転換。</p>
-            <img src="images/chatRoom.png" alt="">
-            <iframe src="https://www.youtube.com/embed/MH7gCJuA13g?si=Nmm-cZH43Sd-K4ZR&amp;start=29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
+        <div class="section-inner">
+            <h2 class="heading">OUR <span>SERVICES</span></h2>
+            <p class="sub">熱中症予防をサポートする多彩な機能をご紹介します。</p>
+            <div class="grid">
+                <div class="card" data-service="家族連携機能">
+                    <h3>家族連携機能</h3>
+                    <p>見守り・応援で安心とつながりを。</p>
+                    <img src="images/connectWithFamily.png" alt="" />
+                    <iframe src="https://www.youtube.com/embed/MH7gCJuA13g?si=lK5N2I6geh829dxV&amp;start=36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="card" data-service="運動機能">
+                    <h3>運動機能</h3>
+                    <p>日々の運動を提案し、健康を維持。</p>
+                    <img src="images/exerice.png" alt="" />
+                    <iframe src="https://www.youtube.com/embed/MH7gCJuA13g?si=dDaw7kjUxhLAt9wB&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="card" data-service="涼しい場所マップ">
+                    <h3>涼しい場所マップ</h3>
+                    <p>近隣の避暑スポットを案内。</p>
+                    <img src="images/coolSpaceMap.png" alt="" />
+                    <iframe src="https://www.youtube.com/embed/MH7gCJuA13g?si=pLtr0wcLuIdC-leS&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="card" data-service="おしゃべりルーム">
+                    <h3>おしゃべりルーム</h3>
+                    <p>AIキャラクターと会話して気分転換。</p>
+                    <img src="images/chatRoom.png" alt="" />
+                    <iframe src="https://www.youtube.com/embed/MH7gCJuA13g?si=Nmm-cZH43Sd-K4ZR&amp;start=29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
-    <!-- アプリの使い方 -->
     <section id="how">
-      <div class="section-inner">
-        <h2 class="heading">HOW <span>IT WORKS</span></h2>
-        <p class="sub">アプリの使い方はとてもシンプルです。</p>
-        <div class="grid">
-          <div class="card">
-            <h3>1. 登録</h3>
-            <p>アプリをダウンロードし、基本情報を入力。</p>
-          </div>
-          <div class="card">
-            <h3>2. 日常サポート</h3>
-            <p>天気や体調に合わせたアドバイスを毎日確認。</p>
-            <img src="images/weather.png" alt="">
-          </div>
-          <div class="card">
-            <h3>3. 共有</h3>
-            <p>家族と活動を共有して安心感を。</p>
-            <img src="images/CheerFromFamily.png" alt="">
-          </div>
+        <div class="section-inner">
+            <h2 class="heading">HOW <span>IT WORKS</span></h2>
+            <p class="sub">アプリの使い方はとてもシンプルです。</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>1. 登録</h3>
+                    <p>アプリをダウンロードし、基本情報を入力。</p>
+                </div>
+                <div class="card">
+                    <h3>2. 日常サポート</h3>
+                    <p>天気や体調に合わせたアドバイスを毎日確認。</p>
+                    <img src="images/weather.png" alt="" />
+                </div>
+                <div class="card">
+                    <h3>3. 共有</h3>
+                    <p>家族と活動を共有して安心感を。</p>
+                    <img src="images/CheerFromFamily.png" alt="" />
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="presentation">
-      <div>
-                    <h2 class="heading"><span>PRESENTATION</span></h2><br/>
-
-        
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ69-87DHqq2cZWB6kj-mKFo23INpgpb1BYwFv5JDBMuHR0A1Y8Iu-pAlIdGYN4NMsb5qFvSW6aq7ah/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <div>
+            <h2 class="heading"><span>PRESENTATION</span></h2><br />
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ69-87DHqq2cZWB6kj-mKFo23INpgpb1BYwFv5JDBMuHR0A1Y8Iu-pAlIdGYN4NMsb5qFvSW6aq7ah/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="569" allowfullscreen="true"
+                mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
-  </section>
+    </section>
 
     <section id="tech_video">
-    <div style="text-align: center;">
-        <h2 class="heading">TECHNICAL <span>VIDEO</span> -English</h2><br/>
-
-    <iframe width="640" height="560" style="max-width:80%;" src="https://www.youtube.com/embed/1rj50N2MbIg?si=EBaEIUzqxrQXwW3j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+        <div style="text-align: center;">
+            <h2 class="heading">TECHNICAL <span>VIDEO</span> -English</h2><br />
+            <iframe width="640" height="560" style="max-width:80%;" src="https://www.youtube.com/embed/1rj50N2MbIg?si=EBaEIUzqxrQXwW3j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </section>
+
     <section id="team_video">
         <div style="text-align: center;">
-   
-    <h2 class="heading">TEAM <span>VIDEO</span> -English</h2><br/>
-
-    <iframe width="640" height="560" style="max-width:80%;" src="https://www.youtube.com/embed/hyOMd1OE2Xk?si=C49zpMR7vvaPXVJm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    </section>
-    <!-- ユーザーテスト -->
-    <section id="voices">
-      <div class="section-inner">
-        <h2 class="heading">USER <span>VOICES</span></h2>
-        <p class="sub">実際に利用している方々の声をご紹介します。</p>
-        <div class="quotes">
-          <div class="quote">「家族が見守ってくれている安心感があります」</div>
-          <div class="quote">
-            「涼しい場所をすぐ探せるので夏でも外出しやすいです」
-          </div>
-          <div class="quote">「AIと会話して気分が明るくなりました！」</div>
+            <h2 class="heading">TEAM <span>VIDEO</span> -English</h2><br />
+            <iframe width="640" height="560" style="max-width:80%;" src="https://www.youtube.com/embed/hyOMd1OE2Xk?si=C49zpMR7vvaPXVJm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-      </div>
     </section>
 
-    <!-- よくあるご質問 -->
+    <section id="voices">
+        <div class="section-inner">
+            <h2 class="heading">USER <span>VOICES</span></h2>
+            <p class="sub">実際に利用している方々の声をご紹介します。</p>
+            <div class="quotes">
+                <div class="quote">「家族が見守ってくれている安心感があります」</div>
+                <div class="quote">「涼しい場所をすぐ探せるので夏でも外出しやすいです」</div>
+                <div class="quote">「AIと会話して気分が明るくなりました！」</div>
+            </div>
+        </div>
+    </section>
+
     <section class="faq-section" id="faq">
-      <div>
-        <h2 class="heading">FAQ</h2>
-        <p class="sub">よくあるご質問にお答えします。</p>
-        <br>
-        <dl class="faq-list">
-          <div class="faq-item">
-            <dt class="faq-question">アプリは使えますか？</dt>
-            <dd class="faq-answer">
-              現時点ではまだサービスとして展開しておりません
-            </dd>
-          </div>
-
-          <div class="faq-item">
-            <dt class="faq-question">スマホが苦手でも使えますか？</dt>
-            <dd class="faq-answer">
-              大きな文字とシンプルな操作画面で、スマホ初心者でも安心して使えるように工夫しております。
-            </dd>
-          </div>
-
-          <div class="faq-item">
-            <dt class="faq-question">家族とどうやってつながれますか？</dt>
-            <dd class="faq-answer">
-              アプリから招待コードを共有するだけで簡単に家族と連携できます。
-            </dd>
-          </div>
-        </dl>
-      </div>
+        <div>
+            <h2 class="heading">FAQ</h2>
+            <p class="sub">よくあるご質問にお答えします。</p>
+            <br />
+            <dl class="faq-list">
+                <div class="faq-item">
+                    <dt class="faq-question">アプリは使えますか？</dt>
+                    <dd class="faq-answer">現時点ではまだサービスとして展開しておりません</dd>
+                </div>
+                <div class="faq-item">
+                    <dt class="faq-question">スマホが苦手でも使えますか？</dt>
+                    <dd class="faq-answer">大きな文字とシンプルな操作画面で、スマホ初心者でも安心して使えるように工夫しております。また、スマホが苦手な人のためのタブレット版もあります。</dd>
+                </div>
+                <div class="faq-item">
+                    <dt class="faq-question">家族とどうやってつながれますか？</dt>
+                    <dd class="faq-answer">アプリから招待コードを共有するだけで簡単に家族と連携できます。</dd>
+                </div>
+                <div class="faq-item">
+                    <dt class="faq-question">このアプリケーションは営利目的で作られますか？</dt>
+                    <dd class="faq-answer">営利目的ではなく非営利の活動を通じて協賛団体やクラウドファンディングの支援も得て必要な人に届けることを前提としています。</dd>
+                </div>
+                <div class="faq-item">
+                    <dt class="faq-question">このアプリケーションは英語でも使えますか？</dt>
+                    <dd class="faq-answer">英語でも使えます。</dd>
+                </div>
+            </dl>
+        </div>
     </section>
 
-    <!-- プロジェクト説明 -->
     <div class="project-desc">
-      <h2>このプロジェクトについて</h2>
-      <br />
-      <p>
-        「Beat the
-        Heat」は、高齢者を中心に誰もが安心して夏を過ごせるよう支援するプロジェクトです。
-        女子・ノンバイナルの中高生向け、ITを駆使したプロジェクト開発コンテスト「Technovation Girls」の2025年度に応募した作品で、
-        熱中症予防をテーマに、テクノロジーとデザインを組み合わせ、家族・地域とつながりながら健康な暮らしを実現します。<br />
-        ※このプロジェクトはコンテスト向けに作成され、現時点では一般用に提供しておりません。
-      </p>
-      <br />
-      <h2>開発者について</h2>
-      <br />
-      <p>
-        4名の中高生チーム「Sakura🌸Tech」がプロジェクトおよびアプリを開発しました。
-        ※ 2025年度時点の学年
-      </p>
-      <br/>
-      <p>開発環境:　Flutter</p>
-      <p>データベース:　Firebase</p>
-      <p>3Dアニメ:　Blender</p>
-      <p>2Dアニメ:　Rive</p>
-      <p>AI:　Microsoft Azure Open AI</p>
+        <h2>このプロジェクトについて</h2>
+        <br />
+        <p>
+            「Beat the Heat」は、高齢者を中心に誰もが安心して夏を過ごせるよう支援するプロジェクトです。 女子・ノンバイナルの中高生向け、ITを駆使したプロジェクト開発コンテスト「Technovation Girls」の2025年度に応募した作品で、 熱中症予防をテーマに、テクノロジーとデザインを組み合わせ、家族・地域とつながりながら健康な暮らしを実現します。
+            <br /> ※このプロジェクトはコンテスト向けに作成され、現時点では一般用に提供しておりません。
+        </p>
+        <br />
+        <h2>開発者について</h2>
+        <br />
+        <p>
+            4名の中高生チーム「Sakura🌸Tech」がプロジェクトおよびアプリを開発しました。 ※ 2025年度時点の学年
+        </p>
+        <br />
+        <p>開発環境: Flutter</p>
+        <p>データベース: Firebase</p>
+        <p>3Dアニメ: Blender</p>
+        <p>2Dアニメ: Rive</p>
+        <p>AI: Microsoft Azure Open AI</p>
     </div>
 
     <footer>© 2025 Team Sakura Tech "Beat the Heat".</footer>
-  </body>
+</body>
+
 </html>
